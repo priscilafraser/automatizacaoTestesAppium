@@ -1,0 +1,15 @@
+class TestData(object):
+    budget_type = "supermarket"
+    budget_value = "600"
+    new_budget_value = "800"
+    fieldEmpty = ""
+    msg_budget_value_empty= "Budget value is empty"
+    msg_budget_type_empty = "Budget type is empty"
+    super = "Super2"
+    nsuper = "NaoSuper2"
+    account = "0399www"
+    valorVazio = "Value is empty"
+    nomeVazio = "Name is empty"
+    nomeValorVazio = "Name and Value are empty"
+    valorInvalido = "Value invalid"
+

@@ -1,0 +1,43 @@
+Requisitos:  appium -a 127.0.0.1 -p 4724 --base /wd/hub
+-Deve ser possível salvar, editar e remover Expense ===>> OKKKKK
+
+arrumar assert do delete!!!!!!!!  OKKKSS
+
+- Não deve ser possível cadastrar sem preencher o campo Nome e o campo Valor. ===>> OKKK
+    Em caso de não preenchimento a mensagem a ser exibida é "Value is empty" para value.  
+    Em caso de nome vazio debe aparecer "Name is empty"
+ Para os dois campos vazios "Name and Vlue are empty"
+
+- Campo nome deve aceitar de 2 a 20 caracteres.  ===>>> OKKKKKKK  
+   Em caso de nome menor ou maior o campo deve estar com uma linha vermelha indicando erro de preenchimento
+
+- Campo Account pode aceitar números, letras e o símbolo  - tamanho de 3 a 8 caracteres  ===>>>	OKKKKK 
+   Em caso de Account inválido, ou menor ou maior o campo deve estar com uma linha vermelha indicando erro de preenchimento
+
+value aqui
+
+- O campo Note aceita até 20 caracteres   ====>>> OKKKKK
+Em caso de ultrapassar o tamanho, uma linha vermelha deve aparecer no campo indicando erro
+
+- O campo Date não deve aceitar uma data futura.   OKKKKKK
+Em caso de data no futuro ou fora do formato, uma linha vermelha no campo deve aparecer indicando erro de preenchimento.
+
+Não é necessário testar o campo Receive que captura foto.
+
+
+- Campo Value só deve aceitar números inteiros e decimais de duas casas 
+   Em caso de valor inválido deve aparecer uma linha vermelha no campo indicando erro de preenchimento
+
+
+
+
+
+
+
+
+6761
+
+
+
+----
+compilar projeto no android studio - está no telegram. Abre como projeto android no android studio
